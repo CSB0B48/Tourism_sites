@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div{text-align:center;}
+        </style>
+</head>
+
+<div>
+<body style ="background-color:lightblue;">
+    <header>
+        <nav>
+            <h4>Hotel booking</h4>
+        </nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="heritage.html">Heritage</a>
+            <a href="hotel_booking.html">Hotel booking</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main style="display: flex; justify-content: center; align-items: center; height: 180vh;">
+        <form style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 2); width: 300px;">
+            <h4 style="color: #0056b3;"><b>Basic Info:</b></h4>
+            <label>First Name:</label>
+            <input type="text" name="firstname" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>Last Name:</label>
+            <input type="text" name="lastname" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>Select Your Age:</label><br>
+            <input type="radio" name="age" value="0-5">
+            <label>0 to 5</label><br>
+            <input type="radio" name="age" value="6-18">
+            <label>6 to 18</label><br>
+            <input type="radio" name="age" value="19-above">
+            <label>19 and above</label><br><br>
+
+            <label>D.O.B:</label>
+            <input type="date" name="dob" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>Gender:</label>
+            <select name="gender" style="width: 100%; padding: 5px; margin-bottom: 10px;">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select><br>
+
+            <h4 style="color: #0056b3;">Booking detail:</h4>
+            <label>Number of guest:</label>
+            <input type="number" name="Number of guest" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>check in:</label>
+            <input type="date" name="check in" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>check out:</label>
+            <input type="date" name="check out" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+
+            <h4 style="color: #0056b3;">Permanent Address:</h4>
+            <label>Vill/City:</label>
+            <input type="text" name="vill_city" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>District:</label>
+            <input type="text" name="district" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>State:</label>
+            <input type="text" name="state" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>Country:</label>
+            <input type="text" name="country" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <h4 style="color: #0056b3;">Contact Info:</h4>
+            <label>Mobile No:</label>
+            <input type="number" name="mobile" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>WhatsApp No:</label>
+            <input type="number" name="whatsapp" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>Email ID:</label>
+            <input type="text" name="email" style="width: 100%; padding: 5px; margin-bottom: 10px;"><br><br>
+
+            <input type="submit" value="Book Now" style="background-color: #0056b3; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; width: 100%;">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tourism in Uttar Pradesh</p>
+    </footer>
+</body>
+</div>
+</html>
